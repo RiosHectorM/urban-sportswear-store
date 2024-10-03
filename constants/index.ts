@@ -72,28 +72,26 @@
 
 export const footerLinks = [
   {
-    title: "About",
+    title: 'Nosotros',
     links: [
-      { title: "Sobre Nosotros", url: "/" },
-      { title: "Featured", url: "/" },
-      { title: "Partnership", url: "/" },
-      { title: "Bussiness Relation", url: "/" },
+      { title: 'Conocenos', url: '/' },
+      { title: 'Contactanos por email', url: '/' },
+      { title: 'Contactanos por Whatsapp', url: '/' },
     ],
   },
   {
-    title: "Company",
+    title: 'Urban Sportswear',
     links: [
-      { title: "Blog", url: "/" },
-      { title: "Podcast", url: "/" },
-      { title: "Invite a friend", url: "/" },
+      { title: 'Historia', url: '/' },
+      { title: 'Ubicacion', url: '/' },
     ],
   },
   {
-    title: "Socials",
+    title: 'Redes Sociales',
     links: [
-      { title: "Instagram", url: "/" },
-      { title: "Twitter", url: "/" },
-      { title: "Facebook", url: "/" },
+      { title: 'Instagram', url: '/' },
+      { title: 'Twitter', url: '/' },
+      { title: 'Facebook', url: '/' },
     ],
   },
 ];
