@@ -74,8 +74,7 @@ export async function fetchCars(filters: FilterPrendas) {
 
   // // Parse the response as JSON
   // const result = await response.json();
-  
-  console.log(prendasEjemplo);
+
   //devuelve los ejemplos de prendas
   return prendasEjemplo;
 }

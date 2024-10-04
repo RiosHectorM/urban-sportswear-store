@@ -1,5 +1,5 @@
 import { PrendasProps } from '@types';
-import { Talla, Color, Genero } from './enums';
+import { Talla, Color, Genero } from '@constants';
 
 export const prendasEjemplo: PrendasProps[] = [
   {

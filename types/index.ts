@@ -1,5 +1,5 @@
 import { MouseEventHandler } from 'react';
-import { Color, Genero, Talla } from '../constants/enums';
+import { Color, Genero, Talla } from '../constants/';
 
 // export interface CarProps {
 //   city_mpg: number;

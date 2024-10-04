@@ -92,6 +92,67 @@ export const footerLinks = [
       { title: 'Instagram', url: '/' },
       { title: 'Twitter', url: '/' },
       { title: 'Facebook', url: '/' },
+      { title: 'Whatsapp', url: '/' },
     ],
   },
 ];
+
+export const Iconos = new Map([
+  ['Instagram', '/instagram.svg'],
+  ['Twitter', '/twitter.svg'],
+  ['Facebook', '/facebook.svg'],
+  ['Whatsapp', '/whatsapp.svg'],
+]);
+
+export enum Talla {
+  XXS = 'XXS',
+  XS = 'XS',
+  S = 'S',
+  M = 'M',
+  L = 'L',
+  XL = 'XL',
+  XXL = 'XXL',
+  XXXL = 'XXXL',
+  XXXXL = 'XXXXL',
+  XXXXXL = 'XXXXXL',
+  XXXXXXL = 'XXXXXXL',
+}
+
+export enum Genero {
+  Masculino = 'Masculino',
+  Femenino = 'Femenino',
+  Unisex = 'Unisex',
+  Unicornio = 'Unicornio',
+}
+
+export enum Color {
+  Blanco = 'Blanco',
+  Negro = 'Negro',
+  Azul = 'Azul',
+  Rojo = 'Rojo',
+  Verde = 'Verde',
+  Amarillo = 'Amarillo',
+  Naranja = 'Naranja',
+  Violeta = 'Violeta',
+  Rosa = 'Rosa',
+  Gris = 'Gris',
+  Marron = 'Marrón',
+  Dorado = 'Dorado',
+  Plata = 'Plata',
+  AzulCeleste = 'AzulCeleste',
+  VerdeOliva = 'VerdeOliva',
+  RojoVino = 'RojoVino',
+  AmarilloLimon = 'AmarilloLimon',
+  NaranjaMandarina = 'NaranjaMandarina',
+  VioletaLavanda = 'VioletaLavanda',
+  MarronChocolate = 'MarronChocolate',
+  VerdeEsmeralda = 'VerdeEsmeralda',
+  AzulMarino = 'AzulMarino',
+  Fucsia = 'Fucsia',
+  Magenta = 'Magenta',
+  Turquesa = 'Turquesa',
+  Coral = 'Coral',
+  Purpura = 'Purpura',
+  Siena = 'Siena',
+  Ocre = 'Ocre',
+}
