@@ -1,15 +1,15 @@
-"use client";
+'use client';
 
-import Image from "next/image";
+import Image from 'next/image';
 
-import { CustomButton } from "@components";
+import { CustomButton } from '@components';
 
 const Hero = () => {
   const handleScroll = () => {
-    const nextSection = document.getElementById("discover");
+    const nextSection = document.getElementById('discover');
 
     if (nextSection) {
-      nextSection.scrollIntoView({ behavior: "smooth" });
+      nextSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
