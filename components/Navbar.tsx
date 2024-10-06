@@ -13,7 +13,7 @@ const NavBar = () => (
           className="object-contain bg-white rounded-full "
         />
       </Link>
-      <div className="flex-1 padding-x  text-2xl font-extrabold">
+      <div className="flex-1 padding-x text-2xl font-extrabold text-white">
         <h1 className="">Encontra la ropa que marca tu estilo!</h1>
       </div>
     </nav>

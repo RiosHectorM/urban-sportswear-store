@@ -44,7 +44,7 @@ export const deleteSearchParams = (type: string) => {
   return newPathname;
 };
 
-export async function fetchCars(filters: FilterPrendas) {
+export async function fetchClothes(filters: FilterPrendas) {
   //Filtros para aplicar
   const {
     categoria,

@@ -58,10 +58,11 @@ export interface FilterPrendas {
     tipo: string;
     porcentaje: number;
   };
+  limit?: number;
 }
 
 export interface HomeProps {
-  searchParams: FilterPrendas;
+  searchParams: FilterPrendas; ,
 }
 
 export interface PrendasCardProps {
