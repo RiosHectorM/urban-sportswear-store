@@ -4,7 +4,7 @@ import { HomeProps } from '@types';
 import {
   ClothesCard,
   ShowMore,
-  SearchBar,
+  //SearchBar,
   CustomFilter,
   Hero,
 } from '@components';
