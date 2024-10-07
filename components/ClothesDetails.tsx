@@ -58,7 +58,10 @@ const ClothesDetails = ({
                 </button>
 
                 <div className="flex-1 flex flex-col gap-3">
-                  <div className="relative w-full h-40 bg-pattern bg-cover bg-center rounded-lg">
+                  <div className="relative w-full h-40 rounded-lg bg-gradient-to-r from-white via-black to-red-700 text-transparent bg-clip-text animate-gradient">
+                    <h2 className="font-semibold text-xl capitalize text-justify">
+                      {clothes.nombre}
+                    </h2>
                     <Image
                       src={'/hero1.png'}
                       alt="car model"
@@ -68,7 +71,7 @@ const ClothesDetails = ({
                     />
                   </div>
 
-                  <div className="flex gap-3">
+                  {/* <div className="flex gap-3">
                     <div className="flex-1 relative w-full h-24 bg-primary-blue-100 rounded-lg">
                       <Image
                         src={'/hero2.png'}
@@ -96,12 +99,45 @@ const ClothesDetails = ({
                         className="object-contain"
                       />
                     </div>
-                  </div>
+                  </div>*/}
                 </div>
 
                 <div className="flex-1 flex flex-col gap-2">
                   <h2 className="font-semibold text-xl capitalize">
-                    {clothes.marca} {clothes.descripcion}
+                    $ {clothes.precio}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize">
+                    {clothes.descripcion}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Genero: {clothes.genero}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Marca: {clothes.marca}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Categoria: {clothes.categoria}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Subcategoria: {clothes.subcategoria}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Talla: {clothes.talla}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Color: {clothes.color}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Material: {clothes.material}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Stock: {clothes.inventario}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Calificaion: {clothes.calificacion}
+                  </h2>
+                  <h2 className="font-semibold text-xl capitalize text-justify">
+                    Caracteristicas:
                   </h2>
 
                   {/* <div className="mt-3 flex flex-wrap gap-4">
