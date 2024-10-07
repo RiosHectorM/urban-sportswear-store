@@ -5,7 +5,7 @@ export const prendasEjemplo: PrendasProps[] = [
   {
     nombre: 'Camiseta básica',
     descripcion: 'Camiseta de algodón suave y cómoda.',
-    precio: 19.99,
+    precio: 19499,
     categoria: 'Camisetas',
     subcategoria: 'Básicas',
     marca: 'Nike',
@@ -25,7 +25,7 @@ export const prendasEjemplo: PrendasProps[] = [
   {
     nombre: 'Vestido floral',
     descripcion: 'Vestido ligero y femenino con estampado floral.',
-    precio: 49.99,
+    precio: 4339.99,
     categoria: 'Vestidos',
     subcategoria: 'Verano',
     marca: 'Zara',
@@ -42,7 +42,7 @@ export const prendasEjemplo: PrendasProps[] = [
   {
     nombre: 'Pantalón jeans clásico',
     descripcion: 'Pantalón vaquero de corte recto y tiro alto.',
-    precio: 69.99,
+    precio: 43669.99,
     categoria: 'Pantalones',
     subcategoria: 'Jeans',
     marca: "Levi's",
@@ -59,7 +59,7 @@ export const prendasEjemplo: PrendasProps[] = [
   {
     nombre: 'Sudadera deportiva',
     descripcion: 'Sudadera de algodón con capucha y bolsillo canguro.',
-    precio: 39.99,
+    precio: 19939.99,
     categoria: 'Camisetas',
     subcategoria: 'Deportivas',
     marca: 'Adidas',
@@ -80,7 +80,7 @@ export const prendasEjemplo: PrendasProps[] = [
   {
     nombre: 'Chaqueta de cuero',
     descripcion: 'Chaqueta de cuero auténtica con cierre asimétrico.',
-    precio: 299.99,
+    precio: 2979.99,
     categoria: 'Chaquetas',
     subcategoria: 'Cuero',
     marca: 'Harley Davidson',
@@ -115,7 +115,7 @@ export const prendasEjemplo: PrendasProps[] = [
     nombre: 'Traje de baño de una pieza',
     descripcion:
       'Traje de baño de una pieza con escote en V y espalda descubierta.',
-    precio: 29.99,
+    precio: 29555,
     categoria: 'Bañadores',
     subcategoria: 'Una pieza',
     marca: 'Calzedonia',

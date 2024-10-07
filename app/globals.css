@@ -108,7 +108,9 @@
 
 /* START: Car Card styles */
 .car-card {
-  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
+  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-gray-300 hover:bg-white hover:shadow-2xl rounded-3xl border-2 border-black hover:border-red-600 
+  bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))]
+  from-white via-gray-200 to-gray-400 hover:to-red-400;
 }
 
 .car-card__content {

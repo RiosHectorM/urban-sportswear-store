@@ -35,7 +35,7 @@ export interface PrendasProps {
   color?: Color;
   material?: string;
   genero?: Genero;
-  imagen?: string;
+  imagen: string;
   inventario?: number;
   promocion?: {
     tipo: string;
@@ -62,7 +62,7 @@ export interface FilterPrendas {
 }
 
 export interface HomeProps {
-  searchParams: FilterPrendas; ,
+  searchParams: FilterPrendas;
 }
 
 export interface PrendasCardProps {
@@ -71,7 +71,7 @@ export interface PrendasCardProps {
   marca?: string;
   talla?: Talla;
   color?: Color;
-  imagen?: string;
+  imagen: string;
 }
 
 // export interface CarCardProps {
