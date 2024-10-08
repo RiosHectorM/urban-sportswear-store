@@ -22,10 +22,10 @@ export default async function Home({ searchParams }: HomeProps) {
     !Array.isArray(allClothes) || allClothes.length < 1 || !allClothes;
 
   return (
-    <main className="overflow-hidden bg-white">
+    <main className="overflow-hidden bg-white home_cont">
       <Hero />
 
-      <div className="mt-12 padding-x padding-y max-width" id="discover">
+      <div className="mt-12 padding-x padding-y max-width " id="discover">
         <div className="home__text-container">
           <h1 className="text-4xl font-extrabold">Catalogo de Ropa</h1>
           <p>ENCONTRA LO QUE DESEAS!</p>

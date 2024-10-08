@@ -85,6 +85,10 @@
 
 /* START: Home styles */
 
+.home_cont {
+  @apply bg-gradient-to-l from-white via-gray-400 to-white animate-gradient;
+}
+
 .home__text-container {
   @apply flex flex-col items-start justify-start gap-y-2.5 text-black-100;
 }
