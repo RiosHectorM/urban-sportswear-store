@@ -15,11 +15,6 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Masculino,
     imagen: 'https://http2.mlstatic.com/D_807231-MLA50448492963_062022-O.jpg',
     inventario: 50,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.5,
     caracteristicas: ['Manga corta', 'Cuello redondo'],
   },
   {
@@ -36,7 +31,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/830/660/products/zt-0856-frente1-c4888add00ccd855ae16324278396152-1024-1024.jpg',
     inventario: 20,
-    calificacion: 4.2,
     caracteristicas: ['Escote en V', 'Cinturilla elástica'],
   },
   {
@@ -53,7 +47,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/402/355/products/pikachu-1c5283b74f45327b5616639552631699-640-0.jpeg',
     inventario: 35,
-    calificacion: 4.8,
     caracteristicas: ['Cierre de botón', 'Bolsillos delanteros y traseros'],
   },
   {
@@ -70,11 +63,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/990/663/products/1311-8203a3f606223c66f015966256451153-1024-1024.jpg',
     inventario: 15,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.3,
     caracteristicas: ['Puños y bajo elásticos', 'Logo bordado'],
   },
   {
@@ -91,7 +79,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://dcdn.mitiendanube.com/stores/002/360/580/products/pokemonml21-f1002579af28e03a7d16696435031863-640-0.jpg',
     inventario: 8,
-    calificacion: 4.9,
     caracteristicas: ['Bolsillos interiores', 'Detalles metálicos'],
   },
   {
@@ -108,7 +95,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://www.tiendafacil.com.ar/tienda/uploads/600x600/1691697871_d4bea3a2.jpg',
     inventario: 12,
-    calificacion: 4.1,
     caracteristicas: ['Cintura elástica', 'Forro interior'],
   },
   {
@@ -125,12 +111,7 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Femenino,
     imagen:
       'https://ideasmvd.com.uy/wp-content/uploads/2023/10/pokemon-03-rojo-ideas-mvd.jpg',
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
     inventario: 7,
-    calificacion: 4.5,
     caracteristicas: ['Relleno extraíble', 'Protección UV'],
   },
   {
@@ -146,11 +127,6 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Masculino,
     imagen: 'https://http2.mlstatic.com/D_807231-MLA50448492963_062022-O.jpg',
     inventario: 50,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.5,
     caracteristicas: ['Manga corta', 'Cuello redondo'],
   },
   {
@@ -167,7 +143,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/830/660/products/zt-0856-frente1-c4888add00ccd855ae16324278396152-1024-1024.jpg',
     inventario: 20,
-    calificacion: 4.2,
     caracteristicas: ['Escote en V', 'Cinturilla elástica'],
   },
   {
@@ -184,7 +159,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/402/355/products/pikachu-1c5283b74f45327b5616639552631699-640-0.jpeg',
     inventario: 35,
-    calificacion: 4.8,
     caracteristicas: ['Cierre de botón', 'Bolsillos delanteros y traseros'],
   },
   {
@@ -201,11 +175,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/990/663/products/1311-8203a3f606223c66f015966256451153-1024-1024.jpg',
     inventario: 15,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.3,
     caracteristicas: ['Puños y bajo elásticos', 'Logo bordado'],
   },
   {
@@ -222,7 +191,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://dcdn.mitiendanube.com/stores/002/360/580/products/pokemonml21-f1002579af28e03a7d16696435031863-640-0.jpg',
     inventario: 8,
-    calificacion: 4.9,
     caracteristicas: ['Bolsillos interiores', 'Detalles metálicos'],
   },
   {
@@ -239,7 +207,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://www.tiendafacil.com.ar/tienda/uploads/600x600/1691697871_d4bea3a2.jpg',
     inventario: 12,
-    calificacion: 4.1,
     caracteristicas: ['Cintura elástica', 'Forro interior'],
   },
   {
@@ -256,12 +223,7 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Femenino,
     imagen:
       'https://ideasmvd.com.uy/wp-content/uploads/2023/10/pokemon-03-rojo-ideas-mvd.jpg',
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
     inventario: 7,
-    calificacion: 4.5,
     caracteristicas: ['Relleno extraíble', 'Protección UV'],
   },
   {
@@ -277,11 +239,6 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Masculino,
     imagen: 'https://http2.mlstatic.com/D_807231-MLA50448492963_062022-O.jpg',
     inventario: 50,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.5,
     caracteristicas: ['Manga corta', 'Cuello redondo'],
   },
   {
@@ -298,7 +255,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/830/660/products/zt-0856-frente1-c4888add00ccd855ae16324278396152-1024-1024.jpg',
     inventario: 20,
-    calificacion: 4.2,
     caracteristicas: ['Escote en V', 'Cinturilla elástica'],
   },
   {
@@ -315,7 +271,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/402/355/products/pikachu-1c5283b74f45327b5616639552631699-640-0.jpeg',
     inventario: 35,
-    calificacion: 4.8,
     caracteristicas: ['Cierre de botón', 'Bolsillos delanteros y traseros'],
   },
   {
@@ -332,11 +287,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/990/663/products/1311-8203a3f606223c66f015966256451153-1024-1024.jpg',
     inventario: 15,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.3,
     caracteristicas: ['Puños y bajo elásticos', 'Logo bordado'],
   },
   {
@@ -353,7 +303,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://dcdn.mitiendanube.com/stores/002/360/580/products/pokemonml21-f1002579af28e03a7d16696435031863-640-0.jpg',
     inventario: 8,
-    calificacion: 4.9,
     caracteristicas: ['Bolsillos interiores', 'Detalles metálicos'],
   },
   {
@@ -370,7 +319,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://www.tiendafacil.com.ar/tienda/uploads/600x600/1691697871_d4bea3a2.jpg',
     inventario: 12,
-    calificacion: 4.1,
     caracteristicas: ['Cintura elástica', 'Forro interior'],
   },
   {
@@ -387,12 +335,7 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Femenino,
     imagen:
       'https://ideasmvd.com.uy/wp-content/uploads/2023/10/pokemon-03-rojo-ideas-mvd.jpg',
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
     inventario: 7,
-    calificacion: 4.5,
     caracteristicas: ['Relleno extraíble', 'Protección UV'],
   },
   {
@@ -408,11 +351,6 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Masculino,
     imagen: 'https://http2.mlstatic.com/D_807231-MLA50448492963_062022-O.jpg',
     inventario: 50,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.5,
     caracteristicas: ['Manga corta', 'Cuello redondo'],
   },
   {
@@ -429,7 +367,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/830/660/products/zt-0856-frente1-c4888add00ccd855ae16324278396152-1024-1024.jpg',
     inventario: 20,
-    calificacion: 4.2,
     caracteristicas: ['Escote en V', 'Cinturilla elástica'],
   },
   {
@@ -446,7 +383,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/402/355/products/pikachu-1c5283b74f45327b5616639552631699-640-0.jpeg',
     inventario: 35,
-    calificacion: 4.8,
     caracteristicas: ['Cierre de botón', 'Bolsillos delanteros y traseros'],
   },
   {
@@ -463,11 +399,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://acdn.mitiendanube.com/stores/990/663/products/1311-8203a3f606223c66f015966256451153-1024-1024.jpg',
     inventario: 15,
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
-    calificacion: 4.3,
     caracteristicas: ['Puños y bajo elásticos', 'Logo bordado'],
   },
   {
@@ -484,7 +415,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://dcdn.mitiendanube.com/stores/002/360/580/products/pokemonml21-f1002579af28e03a7d16696435031863-640-0.jpg',
     inventario: 8,
-    calificacion: 4.9,
     caracteristicas: ['Bolsillos interiores', 'Detalles metálicos'],
   },
   {
@@ -501,7 +431,6 @@ export const prendasEjemplo: PrendasProps[] = [
     imagen:
       'https://www.tiendafacil.com.ar/tienda/uploads/600x600/1691697871_d4bea3a2.jpg',
     inventario: 12,
-    calificacion: 4.1,
     caracteristicas: ['Cintura elástica', 'Forro interior'],
   },
   {
@@ -518,12 +447,7 @@ export const prendasEjemplo: PrendasProps[] = [
     genero: Genero.Femenino,
     imagen:
       'https://ideasmvd.com.uy/wp-content/uploads/2023/10/pokemon-03-rojo-ideas-mvd.jpg',
-    promocion: {
-      tipo: 'Descuento',
-      porcentaje: 10,
-    },
     inventario: 7,
-    calificacion: 4.5,
     caracteristicas: ['Relleno extraíble', 'Protección UV'],
   },
 ];
